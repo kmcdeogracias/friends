@@ -52,3 +52,73 @@ header, .about, .categories, .favorites {
   margin: 48px auto;
   text-align: center;
 }
+
+header {
+  position: relative;
+  z-index: 1;
+}
+
+header img {
+  width: 753px;
+  height: 191px;
+}
+
+.characters img {
+  max-width: 118px;
+  max-height: 140px;
+  overflow: hidden;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.characters img.phoebe {
+  transform: rotate(13.55deg);
+}
+
+.characters img.joey {
+  transform: rotate(-2.37deg);
+}
+
+.characters img.rachel {
+  transform: rotate(13.36deg);
+}
+
+.characters img.ross {
+  transform: rotate(1.02deg);
+}
+
+.characters img.monica {
+  transform: rotate(-7.42deg);
+}
+
+.characters img.chandler {
+  transform: rotate(5.07deg);
+}
+
+.title-wrapper {
+  width: 100%;
+  background-color: #DDC561;
+  height: 270px;
+  position: absolute;
+  top: 420px;
+}
+
+.title-wrapper .title {
+  background: url(images/title.png) no-repeat;
+  width: 743px;
+  height: 32px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+}
+
+.title-wrapper .subtitle {
+  background: url(images/subtitle.png) no-repeat;
+  width: 200px;
+  height: 20px;
+  margin-top: 16px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  margin-top: 16px;
+}
