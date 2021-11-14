@@ -122,3 +122,50 @@ header img {
   top: 50%;
   margin-top: 16px;
 }
+
+.menu-title {
+  color: #877DAF;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.about, .categories {
+  margin-top: 250px;
+  text-align: left;
+}
+
+
+.about .content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.categories {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.categories ul {
+  list-style: none;
+  columns: 3;
+  padding: 0;
+  text-align: center;
+}
+
+.categories .circle {
+  background-color: rgba(135,125,175,0.5);
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 16px 12px 0px;
+  margin-top: 30px;
+}
+
+.circle p {
+  margin-top: 5px;
+  color: #fff;
+}
