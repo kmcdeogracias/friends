@@ -237,3 +237,98 @@ footer {
   padding: 20px;
   font-weight: 700;
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.popup.show {
+  display: block;
+}
+
+.popup .blanket {
+  background-color: rgba(0,0,0,.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.popup .content {
+  box-sizing: border-box;
+  padding: 30px 40px;
+  width: 840px;
+  background-color: #ECECF6;
+  text-align: center;
+  position: absolute;
+  margin-left: 480px;
+  height: 520px;
+  bottom: 25%;
+  margin-top: 270px;
+}
+
+.popup .content p {
+  font-size: 24px;
+}
+
+.popup .close {
+  width: 45px;
+  height: 45px;
+  background: #D1D1F6 url(../images/close.png) no-repeat center center;
+  background-size: 60%;
+  position: absolute;
+  top: -15px;
+  right: -20px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  text-indent: -999px;
+  cursor: pointer;
+}
+
+.popup .item {
+  display: block;
+  width: 100%;
+  margin-top: 31px;
+}
+
+.popup .item  label{
+  width : 130px;
+  display:inline-block;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.popup .item input[type='text'] {
+  width: 400px;
+  height: 35px;
+  border: 2px solid #111111;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+.popup .content .cta {
+  margin-top: 30px;
+  width: 143px;
+  height: 36px;
+  position: relative;
+  right: -205px;
+  background-color: #D1D1F6;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 8px rgb(0 0 0 / 20%);
+}
